@@ -85,17 +85,17 @@
     @apply px-[5%];
   }
 
-  /* Container Sizes */
+  /* Container Sizes - using Relume preset values */
   .container-small {
-    @apply mx-auto w-full max-w-3xl;
+    @apply mx-auto w-full max-w-lg;
   }
 
   .container-medium {
-    @apply mx-auto w-full max-w-5xl;
+    @apply mx-auto w-full max-w-xl;
   }
 
   .container-large {
-    @apply mx-auto w-full max-w-7xl;
+    @apply mx-auto w-full max-w-xxl;
   }
 
   /* Heading Styles */
@@ -477,7 +477,7 @@
   }
 
   .features_header {
-    @apply mx-auto mb-12 max-w-3xl text-center md:mb-16;
+    @apply mx-auto mb-12 max-w-lg text-center md:mb-16;
   }
 
   .features_tagline {
@@ -533,7 +533,7 @@
   }
 
   .testimonials_header {
-    @apply mx-auto mb-12 max-w-3xl text-center md:mb-16;
+    @apply mx-auto mb-12 max-w-lg text-center md:mb-16;
   }
 
   .testimonials_tagline {
@@ -589,7 +589,7 @@
   }
 
   .pricing_header {
-    @apply mx-auto mb-12 max-w-3xl text-center md:mb-16;
+    @apply mx-auto mb-12 max-w-lg text-center md:mb-16;
   }
 
   .pricing_tagline {
@@ -613,7 +613,7 @@
   }
 
   .pricing_card-highlighted {
-    @apply border-primary shadow-lg;
+    @apply border-primary shadow-large;
   }
 
   .pricing_badge {

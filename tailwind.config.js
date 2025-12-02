@@ -1,11 +1,15 @@
+import relumeTailwind from "@relume_io/relume-tailwind";
+import tailwindAnimate from "tailwindcss-animate";
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   darkMode: ["class"],
   content: [
+    "./index.html",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@relume_io/relume-ui/dist/**/*.{js,ts,jsx,tsx}",
   ],
-  presets: [require("@relume_io/relume-tailwind")],
+  presets: [relumeTailwind],
   theme: {
     extend: {
       // ShadCN CSS variable integration
@@ -65,5 +69,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindAnimate],
 };

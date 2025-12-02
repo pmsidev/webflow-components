@@ -10,7 +10,7 @@
 
 # production
 /build
-# Keep dist for CDN serving via jsDelivr
+/dist
 
 # misc
 .DS_Store

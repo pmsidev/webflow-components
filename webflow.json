@@ -4,13 +4,13 @@
     "components": [
       "./src/**/*.webflow.@(js|jsx|mjs|ts|tsx)"
     ],
-    "description": "Relume + React based Components.",
-    "id": "pmsi-components"
+    "id": "pmsi-components",
+    "description": "Relume + React based Components."
   },
   "telemetry": {
     "global": {
       "allowTelemetry": true,
-      "lastPrompted": 1764656783985,
+      "lastPrompted": 1764661502827,
       "version": "1.8.49"
     }
   }

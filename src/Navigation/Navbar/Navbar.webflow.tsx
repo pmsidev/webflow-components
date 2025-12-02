@@ -1,7 +1,6 @@
 import { Navbar } from './Navbar';
 import { props } from '@webflow/data-types';
 import { declareComponent } from '@webflow/react';
-import React from 'react';
 
 const NavbarWrapper = (webflowProps: {
   logoSrc?: string;
@@ -11,11 +10,11 @@ const NavbarWrapper = (webflowProps: {
   buttonsJson?: string;
 }) => {
   const {
-    logoSrc,
-    logoAlt,
-    logoUrl,
-    navLinksJson,
-    buttonsJson,
+    logoSrc = 'https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg',
+    logoAlt = 'Logo',
+    logoUrl = '/',
+    navLinksJson = '[{"label":"Home","url":"/"},{"label":"About","url":"/about"},{"label":"Services","url":"/services"},{"label":"Contact","url":"/contact"}]',
+    buttonsJson = '[{"label":"Get Started","url":"/get-started","variant":"default"}]',
   } = webflowProps;
 
   // Parse JSON strings for complex data
@@ -69,4 +68,3 @@ export default declareComponent(NavbarWrapper, {
     }),
   },
 });
-

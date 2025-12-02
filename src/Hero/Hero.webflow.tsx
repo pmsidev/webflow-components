@@ -1,7 +1,6 @@
 import { Hero } from './Hero';
 import { props } from '@webflow/data-types';
 import { declareComponent } from '@webflow/react';
-import React from 'react';
 
 // Wrapper component to transform flattened Webflow props to Hero's expected structure
 const HeroWrapper = (webflowProps: {
@@ -14,13 +13,13 @@ const HeroWrapper = (webflowProps: {
   enableSecondColumn?: boolean;
 }) => {
   const {
-    title,
-    subtitle,
-    description,
+    title = 'Medium length hero heading goes here',
+    subtitle = 'Tagline',
+    description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     backgroundImage,
-    backgroundImageAlt,
-    size,
-    enableSecondColumn,
+    backgroundImageAlt = 'Hero background',
+    size = 'large',
+    enableSecondColumn = false,
   } = webflowProps;
 
   const heroProps = {
@@ -72,4 +71,3 @@ export default declareComponent(HeroWrapper, {
     }),
   },
 });
-

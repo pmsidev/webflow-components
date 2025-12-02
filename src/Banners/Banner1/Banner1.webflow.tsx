@@ -1,7 +1,6 @@
 import { Banner1 } from './Banner1';
 import { props } from '@webflow/data-types';
 import { declareComponent } from '@webflow/react';
-import React from 'react';
 
 // Wrapper component to transform flattened Webflow props to Banner1's expected structure
 const Banner1Wrapper = (webflowProps: {
@@ -16,15 +15,15 @@ const Banner1Wrapper = (webflowProps: {
   buttonSize?: 'default' | 'sm' | 'lg';
 }) => {
   const {
-    heading,
-    description,
-    logoUrl,
-    logoSrc,
-    logoAlt,
-    inputPlaceholder,
-    buttonTitle,
-    buttonVariant,
-    buttonSize,
+    heading = 'Medium length banner heading goes here',
+    description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    logoUrl = '#',
+    logoSrc = 'https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg',
+    logoAlt = 'Relume logo',
+    inputPlaceholder = 'Enter your email',
+    buttonTitle = 'Sign up',
+    buttonVariant = 'default',
+    buttonSize = 'sm',
   } = webflowProps;
 
   // Transform flattened props to Banner1's expected structure

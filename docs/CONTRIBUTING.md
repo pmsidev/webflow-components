@@ -248,4 +248,3 @@ npm run build     # Verify build succeeds
 ## Questions?
 
 If you have questions about the contribution process, please reach out to the team lead or open a discussion issue.
-

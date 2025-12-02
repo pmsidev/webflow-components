@@ -68,10 +68,10 @@ export default declareComponent(ComponentNameWrapper, {
       defaultValue: 'Default heading text',
     }),
     description: props.Text({
-      name: 'Description', 
+      name: 'Description',
       defaultValue: 'Default description text.',
     }),
-    
+
     // Image props (flattened)
     imageUrl: props.Text({
       name: 'Image Link URL',
@@ -85,7 +85,7 @@ export default declareComponent(ComponentNameWrapper, {
       name: 'Image Alt Text',
       defaultValue: 'Image description',
     }),
-    
+
     // Button props (flattened)
     buttonTitle: props.Text({
       name: 'Button Text',
@@ -140,7 +140,7 @@ props: {
   logoSrc: props.Text({ name: 'Logo Image', defaultValue: '...' }),
   logoAlt: props.Text({ name: 'Logo Alt', defaultValue: 'Logo' }),
   buttonTitle: props.Text({ name: 'Button Text', defaultValue: 'Click' }),
-  buttonSize: props.Variant({ 
+  buttonSize: props.Variant({
     name: 'Button Size',
     options: ['sm', 'md', 'lg'],
     defaultValue: 'md'
@@ -227,4 +227,3 @@ const ComponentNameWrapper = ({ slotContent, ...props }) => {
 - [ ] Component assigned to correct group
 - [ ] Props have clear display names
 - [ ] Optional props handled correctly
-

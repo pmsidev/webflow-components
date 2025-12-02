@@ -50,7 +50,7 @@ export const ComponentName = (props: ComponentNameProps) => {
   };
 
   return (
-    <section 
+    <section
       className={cn("section_component-name", className)}
       {...rest}
     >
@@ -154,4 +154,3 @@ Place components in the correct category folder:
 - [ ] Uses `cn()` for class merging
 - [ ] Includes proper TypeScript exports
 - [ ] File structure follows three-file pattern
-

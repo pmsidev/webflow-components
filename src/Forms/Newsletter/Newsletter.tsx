@@ -90,4 +90,3 @@ export const NewsletterDefaults: Props = {
   buttonText: "Subscribe",
   disclaimerText: "By subscribing, you agree to our Privacy Policy and consent to receive updates.",
 };
-

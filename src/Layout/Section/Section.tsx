@@ -46,4 +46,3 @@ export const Section = (props: SectionProps) => {
     </section>
   );
 };
-

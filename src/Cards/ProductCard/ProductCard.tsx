@@ -90,4 +90,3 @@ export const ProductCardDefaults: Props = {
   buttonText: "Add to Cart",
   url: "#",
 };
-

@@ -42,4 +42,3 @@ export const Grid = (props: GridProps) => {
     </div>
   );
 };
-

@@ -92,4 +92,3 @@ export const BlogCardDefaults: Props = {
   date: "Jan 1, 2024",
   url: "#",
 };
-

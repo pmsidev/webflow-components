@@ -139,4 +139,3 @@ export const ContactFormDefaults: Props = {
   messagePlaceholder: "Your message...",
   buttonText: "Send message",
 };
-

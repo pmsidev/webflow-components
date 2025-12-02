@@ -37,7 +37,7 @@ export const Banner1 = (props: Banner1Props) => {
 
   const [isVisible, setIsVisible] = useState(true);
   const [emailInput, setEmailInput] = useState<string>("");
-  
+
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     console.log({
@@ -50,7 +50,7 @@ export const Banner1 = (props: Banner1Props) => {
   }
 
   return (
-    <section 
+    <section
       className={cn("section_banner", className)}
       {...rest}
     >
@@ -59,10 +59,10 @@ export const Banner1 = (props: Banner1Props) => {
           <div className="banner_container">
             <div className="banner_content">
               <a href={logo.url} className="banner_logo-link">
-                <img 
-                  src={logo.src} 
-                  alt={logo.alt} 
-                  className="banner_logo-image" 
+                <img
+                  src={logo.src}
+                  alt={logo.alt}
+                  className="banner_logo-image"
                 />
               </a>
               <div className="banner_text">
@@ -82,15 +82,15 @@ export const Banner1 = (props: Banner1Props) => {
                 onChange={(e) => setEmailInput(e.target.value)}
                 className="banner_input"
               />
-              <Button 
-                variant={button.variant} 
+              <Button
+                variant={button.variant}
                 size={button.size}
                 type="submit"
               >
                 {button.title}
               </Button>
             </form>
-            <button 
+            <button
               type="button"
               className="banner_close-button"
               onClick={() => setIsVisible(false)}

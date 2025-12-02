@@ -233,8 +233,8 @@ showButton: props.Boolean({ name: 'Show Button', defaultValue: true }),
 **Status:** [Approved / Changes Requested / Needs Discussion]
 
 ### What's Good
-- 
-- 
+-
+-
 
 ### Issues Found
 1. **[Category]:** Description of issue
@@ -242,10 +242,10 @@ showButton: props.Boolean({ name: 'Show Button', defaultValue: true }),
    - Suggestion: How to fix
 
 ### Questions
-- 
+-
 
 ### Optional Improvements
-- 
+-
 ```
 
 ---
@@ -258,4 +258,3 @@ showButton: props.Boolean({ name: 'Show Button', defaultValue: true }),
 | **Major** | Should fix before merge | Wrong patterns, missing tests, accessibility issues |
 | **Minor** | Can fix in follow-up | Naming improvements, code style, documentation |
 | **Suggestion** | Optional improvement | Performance optimizations, refactoring ideas |
-

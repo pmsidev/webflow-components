@@ -1,0 +1,17 @@
+{
+  "library": {
+    "name": "PMSI Components",
+    "components": [
+      "./src/**/*.webflow.@(js|jsx|mjs|ts|tsx)"
+    ],
+    "description": "Relume + React based Components.",
+    "id": "pmsi-components"
+  },
+  "telemetry": {
+    "global": {
+      "allowTelemetry": true,
+      "lastPrompted": 1764656783985,
+      "version": "1.8.49"
+    }
+  }
+}

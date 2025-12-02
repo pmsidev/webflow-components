@@ -21,9 +21,9 @@ Closes #
 
 <!-- List the specific changes made -->
 
-- 
-- 
-- 
+-
+-
+-
 
 ## Component Checklist
 
@@ -68,4 +68,3 @@ Closes #
 - [ ] No obvious performance issues
 - [ ] Accessibility considerations addressed
 - [ ] Tests adequately cover changes
-

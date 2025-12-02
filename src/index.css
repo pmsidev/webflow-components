@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../tailwind.config.js";
 
 /* ==========================================================================
    ShadCN CSS Variables
@@ -485,11 +484,11 @@
   }
 
   .features_heading {
-    @apply heading-style-h2 mb-4;
+    @apply text-3xl font-bold leading-tight md:text-4xl lg:text-5xl mb-4;
   }
 
   .features_description {
-    @apply text-size-medium text-muted-foreground;
+    @apply text-lg text-muted-foreground;
   }
 
   .features_grid {
@@ -541,11 +540,11 @@
   }
 
   .testimonials_heading {
-    @apply heading-style-h2 mb-4;
+    @apply text-3xl font-bold leading-tight md:text-4xl lg:text-5xl mb-4;
   }
 
   .testimonials_description {
-    @apply text-size-medium text-muted-foreground;
+    @apply text-lg text-muted-foreground;
   }
 
   .testimonials_grid {
@@ -597,11 +596,11 @@
   }
 
   .pricing_heading {
-    @apply heading-style-h2 mb-4;
+    @apply text-3xl font-bold leading-tight md:text-4xl lg:text-5xl mb-4;
   }
 
   .pricing_description {
-    @apply text-size-medium text-muted-foreground;
+    @apply text-lg text-muted-foreground;
   }
 
   .pricing_grid {
@@ -681,7 +680,7 @@
   }
 
   .contact-form_heading {
-    @apply heading-style-h2 mb-4;
+    @apply text-3xl font-bold leading-tight md:text-4xl lg:text-5xl mb-4;
   }
 
   .contact-form_description {
@@ -749,7 +748,7 @@
   }
 
   .newsletter_button {
-    @apply sm:flex-shrink-0;
+    @apply shrink-0;
   }
 
   .newsletter_disclaimer {
